@@ -10,7 +10,7 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 
 ## Progress
 - Day 1: Starting freeCodeCamp C tutorial 
-- Day 2: Did not start freeCodeCamp as targeted, went with Brocode instead initially. Uploaded 1 program so far to github (hello world tpye program). continuing with bro code on the revision.
+- Day 2: Did not start freeCodeCamp as targeted, went with Brocode instead initially. Uploaded 1 program so far to github (hello world type program). continuing with bro code on the revision.
 
 ## Resources
 - freeCodeCamp C Tutorial
