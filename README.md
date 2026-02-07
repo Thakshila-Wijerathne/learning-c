@@ -11,6 +11,7 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 ## Progress
 - Day 1: Starting freeCodeCamp C tutorial 
 - Day 2: Continued with BroCode instead, completed hello world (start) and variables, uploaded 2 files to github
+- Day 3: covered format specifiers, arithmetic operators in C.
 
 ## Resources
 - freeCodeCamp C Tutorial
@@ -19,5 +20,5 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 - Bro Code (youtube)
 
 ---
-Last updated: February 3, 2025
+Last updated: February 7, 2025
 ```
