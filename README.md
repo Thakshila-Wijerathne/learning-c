@@ -12,7 +12,7 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 - Day 1: Starting freeCodeCamp C tutorial 
 - Day 2: Continued with BroCode instead, completed hello world (start) and variables, uploaded 2 files to github
 - Day 3: covered format specifiers, arithmetic operators in C.
-- Day 4: covered user inputs, created my first project using switch cases and user input (without any help from any tools), debugged and tested, and uploaded to repository.
+- Day 4: covered user inputs, created my first project using switch cases and user input, debugged and tested, and uploaded to repository.
 
 ## Resources
 - freeCodeCamp C Tutorial
