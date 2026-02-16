@@ -15,9 +15,6 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 - Day 4: covered user inputs, created my first project using switch cases and user input, debugged and tested, and uploaded to repository.
 
 ## Resources
-- freeCodeCamp C Tutorial
-- Learn-C.org
-- CS50
 - Bro Code (youtube)
 
 ---
