@@ -19,7 +19,7 @@ int main()
 
 	printf("Given radius is %lf\n", radius);
 
-	area = 2*PI*pow(2, radius);
+	area = 2*PI*pow(radius, 2);
 
 	surfaceArea = 4*PI*pow(radius, 2);
 
