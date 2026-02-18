@@ -13,10 +13,12 @@ CSE student documenting my journey learning programming (C & Java) from scratch.
 - Day 2: Continued with BroCode instead, completed hello world (start) and variables, uploaded 2 files to github
 - Day 3: covered format specifiers, arithmetic operators in C.
 - Day 4: covered user inputs, created my first project using switch cases and user input, debugged and tested, and uploaded to repository.
+- Day 6: created a mad libs game, a calculator program, and covered math.h basics.
+- Day 7: 
 
 ## Resources
 - Bro Code (youtube)
 
 ---
-Last updated: February 16, 2025
+Last updated: February 18, 2025
 ```
