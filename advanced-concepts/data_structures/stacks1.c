@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<string.h>
+
 #define MAX 5
 
 char stack[MAX];
@@ -34,12 +36,12 @@ int push(char letter){
 		printf("stack overflow:\n");
 	}
 }
-int pop(){
+char pop(){
 	if (!isEmpty()){
-		printf("You've deleted the top character(%c) from the stack.\n", stack[top]);
+		char letter = stack[top];
 		stack[top] = '\0';
 		top--;
-		return top;
+		return letter;
 	}
 	else {
 		printf ("stack underflow:\n");
@@ -52,11 +54,28 @@ void peek(){
 	}
 }
 
+void reverse(char st[]){
+	char rev[MAX];
+	if (st[0] == '\0'){
+		printf("Enter a string to reverse first.\n");
+	}else{
+			for (int i=0; i<MAX; i++){
+				push(st[i]);
+			}
+			printf("Reversed String: ");
+			for (int j = 0; j<MAX; j++){
+				rev[j] = pop();
+				printf("%c", rev[j]);
+			}
+		printf("\n");
+	}
+}
+
 int main(){
 	int option = 0;
 	printf("====Stack Program====\n");
-	printf("Enter option when prompted:\n(type relevant digit and hit enter.)\n 1-Push\n 2-Pop\n 3-Peek\n 4-Exit\n");
-	while(option!=4){
+	printf("Enter option when prompted:\n(type relevant digit and hit enter.)\n 1-Push\n 2-Pop\n 3-Peek\n 4-String Reverse\n 5-Exit\n");
+	while(option!=5){
 		printf("Enter option: ");
 		scanf("%d", &option);
 		switch(option){
@@ -72,8 +91,17 @@ int main(){
 			case 3:
 				peek();
 				break;
+			case 4:
+				printf("Enter the string to be reversed\nMake sure the string is 5 characters max, longer strings will be read only upto the first 5 characters.\n");
+				char st[MAX+1];
+				st[0] = '\0';
+				while(getchar() != '\n');
+				fgets(st, MAX+1, stdin);
+				st[strcspn(st, "\n")]='\0';
+				reverse(st);
+				break;
 			default:
-				if(option!=4){
+				if(option!=5){
 				printf("Invalid operation, enter a valid operation.\n");
 				}
 				break;
